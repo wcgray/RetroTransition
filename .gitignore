@@ -1,0 +1,9 @@
+.DS_Store
+xcuserdata
+xcworkspacedata
+xcworkspace
+whoiswho-ios.xcworkspace
+.pt.yaml
+.idea
+upload_dsym_results
+build
