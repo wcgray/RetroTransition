@@ -5,9 +5,9 @@
 
 Fun implementations of UIViewControllerAnimatedTransitioning for 90s inspired transitions between view controllers.
 
-<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/circles.gif" width="220" height="434"/>
-<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/clock.gif" width="220" height="434"/>
-<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/squares.gif" width="220" height="434"/>
+<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/circles.gif" width="220" height="434" align=left />
+<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/clock.gif" width="220" height="434" align=left/>
+<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/squares.gif" width="220" height="434" align=left/>
 
 ## Installation
 
