@@ -47,16 +47,51 @@
 		F664C97222414DA500BAB2F7 /* photo25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F664C95F22414DA500BAB2F7 /* photo25.jpg */; };
 		F664C97322414DA500BAB2F7 /* photo29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F664C96022414DA500BAB2F7 /* photo29.jpg */; };
 		F664C97522414F6F00BAB2F7 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C97422414F6F00BAB2F7 /* PhotoViewController.swift */; };
-		F664C9782241564D00BAB2F7 /* RetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C9772241564D00BAB2F7 /* RetroTransition.swift */; };
 		F664C97E2243E5D400BAB2F7 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C97D2243E5D400BAB2F7 /* UIImage+Extensions.swift */; };
-		F664C98222441E1100BAB2F7 /* ClockRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98122441E1100BAB2F7 /* ClockRetroTransition.swift */; };
-		F664C98422441E3400BAB2F7 /* CircleRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98322441E3400BAB2F7 /* CircleRetroTransition.swift */; };
-		F664C98622441E5A00BAB2F7 /* CrossFadeRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98522441E5A00BAB2F7 /* CrossFadeRetroTransition.swift */; };
-		F664C98822441E7400BAB2F7 /* RectanglerRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98722441E7400BAB2F7 /* RectanglerRetroTransition.swift */; };
-		F664C98A2244A3B000BAB2F7 /* MultiCircleRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C9892244A3B000BAB2F7 /* MultiCircleRetroTransition.swift */; };
-		F664C98C2244B5DB00BAB2F7 /* FlipRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98B2244B5DB00BAB2F7 /* FlipRetroTransition.swift */; };
-		F664C98E2244BD7500BAB2F7 /* TiledFlipRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98D2244BD7500BAB2F7 /* TiledFlipRetroTransition.swift */; };
+		F664C99922457C4400BAB2F7 /* RetroTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = F664C99722457C4400BAB2F7 /* RetroTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F664C99C22457C4400BAB2F7 /* RetroTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F664C99522457C4400BAB2F7 /* RetroTransition.framework */; };
+		F664C99D22457C4400BAB2F7 /* RetroTransition.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F664C99522457C4400BAB2F7 /* RetroTransition.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F664C9A222457C6C00BAB2F7 /* RetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C9772241564D00BAB2F7 /* RetroTransition.swift */; };
+		F664C9A322457C6C00BAB2F7 /* ClockRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98122441E1100BAB2F7 /* ClockRetroTransition.swift */; };
+		F664C9A422457C6C00BAB2F7 /* CircleRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98322441E3400BAB2F7 /* CircleRetroTransition.swift */; };
+		F664C9A522457C6C00BAB2F7 /* CrossFadeRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98522441E5A00BAB2F7 /* CrossFadeRetroTransition.swift */; };
+		F664C9A622457C6C00BAB2F7 /* RectanglerRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98722441E7400BAB2F7 /* RectanglerRetroTransition.swift */; };
+		F664C9A722457C6C00BAB2F7 /* MultiCircleRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C9892244A3B000BAB2F7 /* MultiCircleRetroTransition.swift */; };
+		F664C9A822457C6C00BAB2F7 /* FlipRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98B2244B5DB00BAB2F7 /* FlipRetroTransition.swift */; };
+		F664C9A922457C6C00BAB2F7 /* TiledFlipRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98D2244BD7500BAB2F7 /* TiledFlipRetroTransition.swift */; };
+		F664C9AA22457D5100BAB2F7 /* RetroTransition.swift in Headers */ = {isa = PBXBuildFile; fileRef = F664C9772241564D00BAB2F7 /* RetroTransition.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F664C9AB22457D5100BAB2F7 /* ClockRetroTransition.swift in Headers */ = {isa = PBXBuildFile; fileRef = F664C98122441E1100BAB2F7 /* ClockRetroTransition.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F664C9AC22457D5100BAB2F7 /* CircleRetroTransition.swift in Headers */ = {isa = PBXBuildFile; fileRef = F664C98322441E3400BAB2F7 /* CircleRetroTransition.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F664C9AD22457D5100BAB2F7 /* CrossFadeRetroTransition.swift in Headers */ = {isa = PBXBuildFile; fileRef = F664C98522441E5A00BAB2F7 /* CrossFadeRetroTransition.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F664C9AE22457D5100BAB2F7 /* RectanglerRetroTransition.swift in Headers */ = {isa = PBXBuildFile; fileRef = F664C98722441E7400BAB2F7 /* RectanglerRetroTransition.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F664C9AF22457D5100BAB2F7 /* MultiCircleRetroTransition.swift in Headers */ = {isa = PBXBuildFile; fileRef = F664C9892244A3B000BAB2F7 /* MultiCircleRetroTransition.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F664C9B022457D5100BAB2F7 /* FlipRetroTransition.swift in Headers */ = {isa = PBXBuildFile; fileRef = F664C98B2244B5DB00BAB2F7 /* FlipRetroTransition.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F664C9B122457D5100BAB2F7 /* TiledFlipRetroTransition.swift in Headers */ = {isa = PBXBuildFile; fileRef = F664C98D2244BD7500BAB2F7 /* TiledFlipRetroTransition.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F664C99A22457C4400BAB2F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F664C90C2241487500BAB2F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F664C99422457C4400BAB2F7;
+			remoteInfo = RetroTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F664C9A122457C4400BAB2F7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F664C99D22457C4400BAB2F7 /* RetroTransition.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F664C9142241487500BAB2F7 /* RetroTransitionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroTransitionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,10 +145,21 @@
 		F664C9892244A3B000BAB2F7 /* MultiCircleRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiCircleRetroTransition.swift; sourceTree = "<group>"; };
 		F664C98B2244B5DB00BAB2F7 /* FlipRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipRetroTransition.swift; sourceTree = "<group>"; };
 		F664C98D2244BD7500BAB2F7 /* TiledFlipRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiledFlipRetroTransition.swift; sourceTree = "<group>"; };
+		F664C99522457C4400BAB2F7 /* RetroTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RetroTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F664C99722457C4400BAB2F7 /* RetroTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RetroTransition.h; sourceTree = "<group>"; };
+		F664C99822457C4400BAB2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F664C9112241487500BAB2F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F664C99C22457C4400BAB2F7 /* RetroTransition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F664C99222457C4400BAB2F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -127,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				F664C9162241487500BAB2F7 /* RetroTransition */,
+				F664C99622457C4400BAB2F7 /* RetroTransition */,
 				F664C9152241487500BAB2F7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -135,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				F664C9142241487500BAB2F7 /* RetroTransitionExample.app */,
+				F664C99522457C4400BAB2F7 /* RetroTransition.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,7 +190,6 @@
 		F664C9162241487500BAB2F7 /* RetroTransition */ = {
 			isa = PBXGroup;
 			children = (
-				F664C976224154E900BAB2F7 /* Transitions */,
 				F664C929224149E000BAB2F7 /* photos */,
 				F664C9172241487500BAB2F7 /* AppDelegate.swift */,
 				F664C9192241487500BAB2F7 /* PhotosGridViewController.swift */,
@@ -212,7 +259,36 @@
 			path = Transitions;
 			sourceTree = "<group>";
 		};
+		F664C99622457C4400BAB2F7 /* RetroTransition */ = {
+			isa = PBXGroup;
+			children = (
+				F664C976224154E900BAB2F7 /* Transitions */,
+				F664C99722457C4400BAB2F7 /* RetroTransition.h */,
+				F664C99822457C4400BAB2F7 /* Info.plist */,
+			);
+			path = RetroTransition;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F664C99022457C4400BAB2F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F664C99922457C4400BAB2F7 /* RetroTransition.h in Headers */,
+				F664C9AA22457D5100BAB2F7 /* RetroTransition.swift in Headers */,
+				F664C9AB22457D5100BAB2F7 /* ClockRetroTransition.swift in Headers */,
+				F664C9AC22457D5100BAB2F7 /* CircleRetroTransition.swift in Headers */,
+				F664C9AD22457D5100BAB2F7 /* CrossFadeRetroTransition.swift in Headers */,
+				F664C9AE22457D5100BAB2F7 /* RectanglerRetroTransition.swift in Headers */,
+				F664C9AF22457D5100BAB2F7 /* MultiCircleRetroTransition.swift in Headers */,
+				F664C9B022457D5100BAB2F7 /* FlipRetroTransition.swift in Headers */,
+				F664C9B122457D5100BAB2F7 /* TiledFlipRetroTransition.swift in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		F664C9132241487500BAB2F7 /* RetroTransitionExample */ = {
@@ -222,15 +298,35 @@
 				F664C9102241487500BAB2F7 /* Sources */,
 				F664C9112241487500BAB2F7 /* Frameworks */,
 				F664C9122241487500BAB2F7 /* Resources */,
+				F664C9A122457C4400BAB2F7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F664C99B22457C4400BAB2F7 /* PBXTargetDependency */,
 			);
 			name = RetroTransitionExample;
 			productName = RetroTransition;
 			productReference = F664C9142241487500BAB2F7 /* RetroTransitionExample.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F664C99422457C4400BAB2F7 /* RetroTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F664C99E22457C4400BAB2F7 /* Build configuration list for PBXNativeTarget "RetroTransition" */;
+			buildPhases = (
+				F664C99022457C4400BAB2F7 /* Headers */,
+				F664C99122457C4400BAB2F7 /* Sources */,
+				F664C99222457C4400BAB2F7 /* Frameworks */,
+				F664C99322457C4400BAB2F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetroTransition;
+			productName = RetroTransition;
+			productReference = F664C99522457C4400BAB2F7 /* RetroTransition.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -243,6 +339,9 @@
 				ORGANIZATIONNAME = "Campbell Gray";
 				TargetAttributes = {
 					F664C9132241487500BAB2F7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F664C99422457C4400BAB2F7 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -261,6 +360,7 @@
 			projectRoot = "";
 			targets = (
 				F664C9132241487500BAB2F7 /* RetroTransitionExample */,
+				F664C99422457C4400BAB2F7 /* RetroTransition */,
 			);
 		};
 /* End PBXProject section */
@@ -309,6 +409,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F664C99322457C4400BAB2F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -316,23 +423,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F664C98222441E1100BAB2F7 /* ClockRetroTransition.swift in Sources */,
 				F664C91A2241487500BAB2F7 /* PhotosGridViewController.swift in Sources */,
-				F664C98822441E7400BAB2F7 /* RectanglerRetroTransition.swift in Sources */,
 				F664C97522414F6F00BAB2F7 /* PhotoViewController.swift in Sources */,
 				F664C94D22414B0100BAB2F7 /* PhotoCell.swift in Sources */,
 				F664C97E2243E5D400BAB2F7 /* UIImage+Extensions.swift in Sources */,
-				F664C98A2244A3B000BAB2F7 /* MultiCircleRetroTransition.swift in Sources */,
-				F664C98E2244BD7500BAB2F7 /* TiledFlipRetroTransition.swift in Sources */,
-				F664C9782241564D00BAB2F7 /* RetroTransition.swift in Sources */,
-				F664C98622441E5A00BAB2F7 /* CrossFadeRetroTransition.swift in Sources */,
 				F664C9182241487500BAB2F7 /* AppDelegate.swift in Sources */,
-				F664C98C2244B5DB00BAB2F7 /* FlipRetroTransition.swift in Sources */,
-				F664C98422441E3400BAB2F7 /* CircleRetroTransition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F664C99122457C4400BAB2F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F664C9A722457C6C00BAB2F7 /* MultiCircleRetroTransition.swift in Sources */,
+				F664C9A322457C6C00BAB2F7 /* ClockRetroTransition.swift in Sources */,
+				F664C9A422457C6C00BAB2F7 /* CircleRetroTransition.swift in Sources */,
+				F664C9A622457C6C00BAB2F7 /* RectanglerRetroTransition.swift in Sources */,
+				F664C9A822457C6C00BAB2F7 /* FlipRetroTransition.swift in Sources */,
+				F664C9A922457C6C00BAB2F7 /* TiledFlipRetroTransition.swift in Sources */,
+				F664C9A522457C6C00BAB2F7 /* CrossFadeRetroTransition.swift in Sources */,
+				F664C9A222457C6C00BAB2F7 /* RetroTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F664C99B22457C4400BAB2F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F664C99422457C4400BAB2F7 /* RetroTransition */;
+			targetProxy = F664C99A22457C4400BAB2F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F664C9202241487500BAB2F7 /* LaunchScreen.storyboard */ = {
@@ -465,6 +587,7 @@
 		F664C9272241487500BAB2F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PZRFS893FD;
@@ -484,6 +607,7 @@
 		F664C9282241487500BAB2F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PZRFS893FD;
@@ -497,6 +621,64 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F664C99F22457C4400BAB2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PZRFS893FD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RetroTransition/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinsoldiersoftware.RetroTransition;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F664C9A022457C4400BAB2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PZRFS893FD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RetroTransition/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinsoldiersoftware.RetroTransition;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -517,6 +699,15 @@
 			buildConfigurations = (
 				F664C9272241487500BAB2F7 /* Debug */,
 				F664C9282241487500BAB2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F664C99E22457C4400BAB2F7 /* Build configuration list for PBXNativeTarget "RetroTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F664C99F22457C4400BAB2F7 /* Debug */,
+				F664C9A022457C4400BAB2F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

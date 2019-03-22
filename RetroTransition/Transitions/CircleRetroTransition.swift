@@ -1,7 +1,7 @@
 import UIKit
 
-class CircleRetroTransition : RetroTransition {
-    override func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+public class CircleRetroTransition : RetroTransition {
+    override public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         guard let fromVC = transitionContext.viewController(forKey: .from),
             let toVC = transitionContext.viewController(forKey: .to)
             else {

@@ -19,9 +19,9 @@ class RetroBasicAnimation : CABasicAnimation, CAAnimationDelegate {
     }
 }
 
-internal class RetroTransition : NSObject {
+public class RetroTransition : NSObject {
     public var duration: TimeInterval = 0.33
-    required init(duration : TimeInterval? = nil) {
+    required public init(duration : TimeInterval? = nil) {
         super.init()
         self.duration = duration ?? defaultDuration()
     }
@@ -32,11 +32,11 @@ internal class RetroTransition : NSObject {
 }
 
 extension RetroTransition : UIViewControllerAnimatedTransitioning {
-    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+    public func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return self.duration
     }
     
-    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+    public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         transitionContext.completeTransition(!transitionContext.transitionWasCancelled)
     }
 }
@@ -62,7 +62,7 @@ internal class RetroTransitionNavigationDelegate : NSObject, UINavigationControl
     }
 }
 
-extension UINavigationController {
+public extension UINavigationController {
     func pushViewController(_ viewController: UIViewController, withRetroTransition transition: RetroTransition) {
         RetroTransitionNavigationDelegate.shared.pushTransition(transition, forNavigationController: self)
         pushViewController(viewController, animated: true)

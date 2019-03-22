@@ -1,6 +1,6 @@
 import UIKit
 
-class TiledFlipRetroTransition : RetroTransition {
+public class TiledFlipRetroTransition : RetroTransition {
     private func flipSegment(toViewImage: UIImage, fromViewImage: UIImage, delay: TimeInterval, rect: CGRect, animationTime: CGFloat, parentView: UIView) {
         guard let cgToImage = toViewImage.cgImage,
             let cgFromImage = fromViewImage.cgImage,
@@ -53,7 +53,7 @@ class TiledFlipRetroTransition : RetroTransition {
         return img
     }
     
-    override func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+    override public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         guard let fromVC = transitionContext.viewController(forKey: .from),
             let toVC = transitionContext.viewController(forKey: .to),
             let snapshotToVc = snapshot(toVC.view),

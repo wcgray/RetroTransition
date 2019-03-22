@@ -1,4 +1,5 @@
 import UIKit
+import RetroTransition
 
 class PhotosGridViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     let images : [UIImage]!
@@ -93,14 +94,6 @@ class PhotosGridViewController: UIViewController, UICollectionViewDelegate, UICo
         }
         
         self.transitionIndex = newIndex
-    }
-    
-    func pushTransition(fromVC: UIViewController, toVC: UIViewController) -> RetroTransition? {
-        return CrossFadeRetroTransition()
-    }
-    
-    func popTransition(fromVC: UIViewController, toVC: UIViewController) -> RetroTransition? {
-        return nil
     }
     
     // MARK: - UICollectionViewDataSource
