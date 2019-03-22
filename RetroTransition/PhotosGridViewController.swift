@@ -4,7 +4,7 @@ class PhotosGridViewController: UIViewController, UICollectionViewDelegate, UICo
     let images : [UIImage]!
     let transitionLabel = UILabel()
     
-    let transitionClasses = [ClockRetroTransition.self, CircleRetroTransition.self, CrossFadeRetroTransition.self]
+    let transitionClasses = [MultiCircleRetroTransition.self, RectanglerRetroTransition.self, ClockRetroTransition.self, CircleRetroTransition.self, CrossFadeRetroTransition.self]
     var transitionIndex : Int = 0 {
         didSet {
             transitionLabel.text = String(describing: transitionClasses[transitionIndex])

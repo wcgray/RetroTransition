@@ -51,6 +51,11 @@
 		F664C97522414F6F00BAB2F7 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C97422414F6F00BAB2F7 /* PhotoViewController.swift */; };
 		F664C9782241564D00BAB2F7 /* RetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C9772241564D00BAB2F7 /* RetroTransition.swift */; };
 		F664C97E2243E5D400BAB2F7 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C97D2243E5D400BAB2F7 /* UIImage+Extensions.swift */; };
+		F664C98222441E1100BAB2F7 /* ClockRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98122441E1100BAB2F7 /* ClockRetroTransition.swift */; };
+		F664C98422441E3400BAB2F7 /* CircleRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98322441E3400BAB2F7 /* CircleRetroTransition.swift */; };
+		F664C98622441E5A00BAB2F7 /* CrossFadeRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98522441E5A00BAB2F7 /* CrossFadeRetroTransition.swift */; };
+		F664C98822441E7400BAB2F7 /* RectanglerRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98722441E7400BAB2F7 /* RectanglerRetroTransition.swift */; };
+		F664C98A2244A3B000BAB2F7 /* MultiCircleRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C9892244A3B000BAB2F7 /* MultiCircleRetroTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +105,11 @@
 		F664C97422414F6F00BAB2F7 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		F664C9772241564D00BAB2F7 /* RetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroTransition.swift; sourceTree = "<group>"; };
 		F664C97D2243E5D400BAB2F7 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		F664C98122441E1100BAB2F7 /* ClockRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockRetroTransition.swift; sourceTree = "<group>"; };
+		F664C98322441E3400BAB2F7 /* CircleRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleRetroTransition.swift; sourceTree = "<group>"; };
+		F664C98522441E5A00BAB2F7 /* CrossFadeRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossFadeRetroTransition.swift; sourceTree = "<group>"; };
+		F664C98722441E7400BAB2F7 /* RectanglerRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectanglerRetroTransition.swift; sourceTree = "<group>"; };
+		F664C9892244A3B000BAB2F7 /* MultiCircleRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiCircleRetroTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +203,11 @@
 			isa = PBXGroup;
 			children = (
 				F664C9772241564D00BAB2F7 /* RetroTransition.swift */,
+				F664C98122441E1100BAB2F7 /* ClockRetroTransition.swift */,
+				F664C98322441E3400BAB2F7 /* CircleRetroTransition.swift */,
+				F664C98522441E5A00BAB2F7 /* CrossFadeRetroTransition.swift */,
+				F664C98722441E7400BAB2F7 /* RectanglerRetroTransition.swift */,
+				F664C9892244A3B000BAB2F7 /* MultiCircleRetroTransition.swift */,
 			);
 			path = Transitions;
 			sourceTree = "<group>";
@@ -303,12 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F664C98222441E1100BAB2F7 /* ClockRetroTransition.swift in Sources */,
 				F664C91A2241487500BAB2F7 /* PhotosGridViewController.swift in Sources */,
+				F664C98822441E7400BAB2F7 /* RectanglerRetroTransition.swift in Sources */,
 				F664C97522414F6F00BAB2F7 /* PhotoViewController.swift in Sources */,
 				F664C94D22414B0100BAB2F7 /* PhotoCell.swift in Sources */,
 				F664C97E2243E5D400BAB2F7 /* UIImage+Extensions.swift in Sources */,
+				F664C98A2244A3B000BAB2F7 /* MultiCircleRetroTransition.swift in Sources */,
 				F664C9782241564D00BAB2F7 /* RetroTransition.swift in Sources */,
+				F664C98622441E5A00BAB2F7 /* CrossFadeRetroTransition.swift in Sources */,
 				F664C9182241487500BAB2F7 /* AppDelegate.swift in Sources */,
+				F664C98422441E3400BAB2F7 /* CircleRetroTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
