@@ -25,13 +25,14 @@ class CircleRetroTransition : RetroTransition {
         
         let animation : RetroBasicAnimation = RetroBasicAnimation()
         animation.keyPath = "path"
+        animation.fillMode = .forwards
+        animation.isRemovedOnCompletion = false
         animation.duration = self.duration
         animation.fromValue = circlePathStart.cgPath
         animation.toValue = circlePathEnd.cgPath
         animation.autoreverses = false
         animation.onFinish = {
             transitionContext.completeTransition(!transitionContext.transitionWasCancelled)
-            fromVC.view.removeFromSuperview()
             fromVC.view.layer.mask = nil
         }
         shapeLayer.add(animation, forKey: "path")

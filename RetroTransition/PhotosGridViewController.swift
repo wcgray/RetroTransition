@@ -5,12 +5,12 @@ class PhotosGridViewController: UIViewController, UICollectionViewDelegate, UICo
     let transitionLabel = UILabel()
     
     let transitionClasses = [
+        ClockRetroTransition.self,
+        CircleRetroTransition.self,
+        RectanglerRetroTransition.self,
         TiledFlipRetroTransition.self,
         FlipRetroTransition.self,
         MultiCircleRetroTransition.self,
-        RectanglerRetroTransition.self,
-        ClockRetroTransition.self,
-        CircleRetroTransition.self,
         CrossFadeRetroTransition.self
     ]
     var transitionIndex : Int = 0 {
@@ -20,7 +20,7 @@ class PhotosGridViewController: UIViewController, UICollectionViewDelegate, UICo
     }
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-        images = (1...35).map({ "photo\($0).jpg" }).compactMap({ UIImage.init(named: $0) })
+        images = (1...34).map({ "photo\($0).jpg" }).compactMap({ UIImage.init(named: $0) })
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -42,24 +42,29 @@ class PhotosGridViewController: UIViewController, UICollectionViewDelegate, UICo
         let cellWidth = view.bounds.width / 2
         layout.itemSize = CGSize(width: cellWidth, height: cellWidth)
         
-        let bottomBar = UIView(frame: CGRect(x:0, y:view.bounds.size.height - 64, width: view.bounds.size.width, height: 64))
+        var isFullscreen = false
+        if #available(iOS 11.0,  *) {
+            isFullscreen = UIApplication.shared.delegate?.window??.safeAreaInsets.top ?? 0 > 20
+        }
+        
+        let bottomBar = UIView(frame: CGRect(x:0, y:view.bounds.size.height - (64 + (isFullscreen ? 20 : 0)), width: view.bounds.size.width, height: 64 + (isFullscreen ? 20 : 0)))
         bottomBar.backgroundColor = UIColor.black
         
         let previousTransitionButton = UIButton()
         previousTransitionButton.setImage(#imageLiteral(resourceName: "leftarrow").maskWithColor(color: UIColor.white), for: .normal)
         previousTransitionButton.frame = CGRect.init(x: 10, y: 0, width: 44, height: 44)
-        previousTransitionButton.center = CGPoint(x: previousTransitionButton.center.x, y: bottomBar.frame.size.height / 2)
+        previousTransitionButton.center = CGPoint(x: previousTransitionButton.center.x, y: 64 / 2)
         previousTransitionButton.addTarget(self, action: #selector(self.previousTranstionPressed), for: .touchUpInside)
         bottomBar.addSubview(previousTransitionButton)
         
         let nextTransitionButton = UIButton()
         nextTransitionButton.setImage(#imageLiteral(resourceName: "leftarrow").maskWithColor(color: UIColor.white)?.flipHorizontal(), for: .normal)
         nextTransitionButton.frame = CGRect.init(x: bottomBar.frame.size.width - 44 - 10, y: 0, width: 44, height: 44)
-        nextTransitionButton.center = CGPoint(x: nextTransitionButton.center.x, y: bottomBar.frame.size.height / 2)
+        nextTransitionButton.center = CGPoint(x: nextTransitionButton.center.x, y: 64 / 2)
         nextTransitionButton.addTarget(self, action: #selector(self.nextTranstionPressed), for: .touchUpInside)
         bottomBar.addSubview(nextTransitionButton)
         
-        transitionLabel.frame = CGRect(x: 0, y: 0, width: bottomBar.frame.size.width - (2 * (nextTransitionButton.frame.size.width + 20)), height: bottomBar.frame.size.height)
+        transitionLabel.frame = CGRect(x: 0, y: 0, width: bottomBar.frame.size.width - (2 * (nextTransitionButton.frame.size.width + 20)), height: 64)
         transitionLabel.center.x = bottomBar.frame.size.width / 2
         transitionLabel.textColor = UIColor.white
         transitionLabel.textAlignment = .center
@@ -82,7 +87,12 @@ class PhotosGridViewController: UIViewController, UICollectionViewDelegate, UICo
     }
     
     @objc func previousTranstionPressed() {
-        self.transitionIndex = (self.transitionIndex - 1) % transitionClasses.count
+        var newIndex = (self.transitionIndex - 1)
+        while (newIndex < 0) {
+            newIndex += transitionClasses.count
+        }
+        
+        self.transitionIndex = newIndex
     }
     
     func pushTransition(fromVC: UIViewController, toVC: UIViewController) -> RetroTransition? {

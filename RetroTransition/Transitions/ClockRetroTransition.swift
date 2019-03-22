@@ -47,6 +47,8 @@ class ClockRetroTransition : RetroTransition {
             animation.duration = self.duration / 4
             animation.fromValue = pathStart
             animation.toValue = pathEnd
+            animation.isRemovedOnCompletion = false
+            animation.fillMode = .forwards
             animation.autoreverses = false
             animation.onFinish = {
                 completion()

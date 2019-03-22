@@ -40,7 +40,6 @@
 		F664C96922414DA500BAB2F7 /* photo32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F664C95622414DA500BAB2F7 /* photo32.jpg */; };
 		F664C96A22414DA500BAB2F7 /* photo24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F664C95722414DA500BAB2F7 /* photo24.jpg */; };
 		F664C96B22414DA500BAB2F7 /* photo33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F664C95822414DA500BAB2F7 /* photo33.jpg */; };
-		F664C96C22414DA500BAB2F7 /* photo35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F664C95922414DA500BAB2F7 /* photo35.jpg */; };
 		F664C96E22414DA500BAB2F7 /* photo27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F664C95B22414DA500BAB2F7 /* photo27.jpg */; };
 		F664C96F22414DA500BAB2F7 /* photo34.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F664C95C22414DA500BAB2F7 /* photo34.jpg */; };
 		F664C97022414DA500BAB2F7 /* photo26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F664C95D22414DA500BAB2F7 /* photo26.jpg */; };
@@ -60,7 +59,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F664C9142241487500BAB2F7 /* RetroTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F664C9142241487500BAB2F7 /* RetroTransitionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroTransitionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F664C9172241487500BAB2F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F664C9192241487500BAB2F7 /* PhotosGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosGridViewController.swift; sourceTree = "<group>"; };
 		F664C91E2241487500BAB2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -95,7 +94,6 @@
 		F664C95622414DA500BAB2F7 /* photo32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo32.jpg; sourceTree = "<group>"; };
 		F664C95722414DA500BAB2F7 /* photo24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo24.jpg; sourceTree = "<group>"; };
 		F664C95822414DA500BAB2F7 /* photo33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo33.jpg; sourceTree = "<group>"; };
-		F664C95922414DA500BAB2F7 /* photo35.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo35.jpg; sourceTree = "<group>"; };
 		F664C95B22414DA500BAB2F7 /* photo27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo27.jpg; sourceTree = "<group>"; };
 		F664C95C22414DA500BAB2F7 /* photo34.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo34.jpg; sourceTree = "<group>"; };
 		F664C95D22414DA500BAB2F7 /* photo26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo26.jpg; sourceTree = "<group>"; };
@@ -136,7 +134,7 @@
 		F664C9152241487500BAB2F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F664C9142241487500BAB2F7 /* RetroTransition.app */,
+				F664C9142241487500BAB2F7 /* RetroTransitionExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,7 +193,6 @@
 				F664C95622414DA500BAB2F7 /* photo32.jpg */,
 				F664C95822414DA500BAB2F7 /* photo33.jpg */,
 				F664C95C22414DA500BAB2F7 /* photo34.jpg */,
-				F664C95922414DA500BAB2F7 /* photo35.jpg */,
 			);
 			path = photos;
 			sourceTree = "<group>";
@@ -218,9 +215,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F664C9132241487500BAB2F7 /* RetroTransition */ = {
+		F664C9132241487500BAB2F7 /* RetroTransitionExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F664C9262241487500BAB2F7 /* Build configuration list for PBXNativeTarget "RetroTransition" */;
+			buildConfigurationList = F664C9262241487500BAB2F7 /* Build configuration list for PBXNativeTarget "RetroTransitionExample" */;
 			buildPhases = (
 				F664C9102241487500BAB2F7 /* Sources */,
 				F664C9112241487500BAB2F7 /* Frameworks */,
@@ -230,9 +227,9 @@
 			);
 			dependencies = (
 			);
-			name = RetroTransition;
+			name = RetroTransitionExample;
 			productName = RetroTransition;
-			productReference = F664C9142241487500BAB2F7 /* RetroTransition.app */;
+			productReference = F664C9142241487500BAB2F7 /* RetroTransitionExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -263,7 +260,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F664C9132241487500BAB2F7 /* RetroTransition */,
+				F664C9132241487500BAB2F7 /* RetroTransitionExample */,
 			);
 		};
 /* End PBXProject section */
@@ -292,7 +289,6 @@
 				F664C96222414DA500BAB2F7 /* photo31.jpg in Resources */,
 				F664C96822414DA500BAB2F7 /* photo30.jpg in Resources */,
 				F664C948224149E000BAB2F7 /* photo6.jpg in Resources */,
-				F664C96C22414DA500BAB2F7 /* photo35.jpg in Resources */,
 				F664C9222241487500BAB2F7 /* LaunchScreen.storyboard in Resources */,
 				F664C93E224149E000BAB2F7 /* photo16.jpg in Resources */,
 				F664C94A224149E000BAB2F7 /* photo3.jpg in Resources */,
@@ -473,11 +469,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PZRFS893FD;
 				INFOPLIST_FILE = RetroTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tinsoldiersoftware.RetroTransition;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinsoldiersoftware.RetroTransitionExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -491,11 +488,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PZRFS893FD;
 				INFOPLIST_FILE = RetroTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tinsoldiersoftware.RetroTransition;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinsoldiersoftware.RetroTransitionExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -514,7 +512,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F664C9262241487500BAB2F7 /* Build configuration list for PBXNativeTarget "RetroTransition" */ = {
+		F664C9262241487500BAB2F7 /* Build configuration list for PBXNativeTarget "RetroTransitionExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F664C9272241487500BAB2F7 /* Debug */,

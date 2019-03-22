@@ -43,6 +43,7 @@ class RectanglerRetroTransition : RetroTransition {
                 animation.fromValue = pathEnd
                 animation.toValue = path.cgPath
                 animation.autoreverses = false
+                animation.isRemovedOnCompletion = false
                 animation.onFinish = {
                     if let completion = completion {
                         completion()
@@ -64,8 +65,8 @@ class RectanglerRetroTransition : RetroTransition {
         
         let cleanup : (() -> (Void)) = {
             transitionContext.completeTransition(!transitionContext.transitionWasCancelled)
+            fromVC.view.alpha = 1
             fromVC.view.layer.mask = nil
-            fromVC.view.removeFromSuperview()
         }
         
         let maskLayer = CALayer.init()
@@ -76,7 +77,7 @@ class RectanglerRetroTransition : RetroTransition {
             let magnitude = CGFloat(i) * RectanglerRetroTransition.RectangleGrowthDistance
             if magnitude <= fromVC.view.bounds.width && magnitude <= fromVC.view.bounds.height {
                 let startRect = RectanglerRetroTransition.rectMovedIn(fromVC.view.bounds, magnitude: magnitude)
-                if let sublayer = createRectOutlinePath(startRect, completion: cleanup) {
+                if let sublayer = createRectOutlinePath(startRect, completion: nil) {
                     maskLayer.addSublayer(sublayer)
                 }
             }
@@ -84,12 +85,12 @@ class RectanglerRetroTransition : RetroTransition {
         
         fromVC.view.layer.mask = maskLayer
         
-        let animation : RetroBasicAnimation = RetroBasicAnimation()
-        animation.keyPath = "opacity"
-        animation.duration = self.duration
-        animation.fromValue = 1.0
-        animation.toValue = 0.0
-        animation.autoreverses = false
-        fromVC.view.layer.add(animation, forKey: "path")
+        UIView.animate(withDuration: self.duration) {
+            fromVC.view.alpha = 0.0
+        }
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + TimeInterval(self.duration), execute: {
+            cleanup()
+        })
     }
 }
