@@ -20,10 +20,14 @@ class RetroBasicAnimation : CABasicAnimation, CAAnimationDelegate {
 }
 
 internal class RetroTransition : NSObject {
-    public var duration: TimeInterval!
-    required init(duration : TimeInterval = 0.33) {
-        self.duration = duration
+    public var duration: TimeInterval = 0.33
+    required init(duration : TimeInterval? = nil) {
         super.init()
+        self.duration = duration ?? defaultDuration()
+    }
+    
+    func defaultDuration() -> TimeInterval {
+        return 0.33
     }
 }
 

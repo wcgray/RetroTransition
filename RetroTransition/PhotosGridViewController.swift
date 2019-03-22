@@ -4,7 +4,15 @@ class PhotosGridViewController: UIViewController, UICollectionViewDelegate, UICo
     let images : [UIImage]!
     let transitionLabel = UILabel()
     
-    let transitionClasses = [MultiCircleRetroTransition.self, RectanglerRetroTransition.self, ClockRetroTransition.self, CircleRetroTransition.self, CrossFadeRetroTransition.self]
+    let transitionClasses = [
+        TiledFlipRetroTransition.self,
+        FlipRetroTransition.self,
+        MultiCircleRetroTransition.self,
+        RectanglerRetroTransition.self,
+        ClockRetroTransition.self,
+        CircleRetroTransition.self,
+        CrossFadeRetroTransition.self
+    ]
     var transitionIndex : Int = 0 {
         didSet {
             transitionLabel.text = String(describing: transitionClasses[transitionIndex])
@@ -12,7 +20,7 @@ class PhotosGridViewController: UIViewController, UICollectionViewDelegate, UICo
     }
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-        images = (1...36).map({ "photo\($0).jpg" }).compactMap({ UIImage.init(named: $0) })
+        images = (1...35).map({ "photo\($0).jpg" }).compactMap({ UIImage.init(named: $0) })
         super.init(nibName: nil, bundle: nil)
     }
     

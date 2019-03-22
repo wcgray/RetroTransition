@@ -41,7 +41,6 @@
 		F664C96A22414DA500BAB2F7 /* photo24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F664C95722414DA500BAB2F7 /* photo24.jpg */; };
 		F664C96B22414DA500BAB2F7 /* photo33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F664C95822414DA500BAB2F7 /* photo33.jpg */; };
 		F664C96C22414DA500BAB2F7 /* photo35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F664C95922414DA500BAB2F7 /* photo35.jpg */; };
-		F664C96D22414DA500BAB2F7 /* photo36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F664C95A22414DA500BAB2F7 /* photo36.jpg */; };
 		F664C96E22414DA500BAB2F7 /* photo27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F664C95B22414DA500BAB2F7 /* photo27.jpg */; };
 		F664C96F22414DA500BAB2F7 /* photo34.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F664C95C22414DA500BAB2F7 /* photo34.jpg */; };
 		F664C97022414DA500BAB2F7 /* photo26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F664C95D22414DA500BAB2F7 /* photo26.jpg */; };
@@ -56,6 +55,8 @@
 		F664C98622441E5A00BAB2F7 /* CrossFadeRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98522441E5A00BAB2F7 /* CrossFadeRetroTransition.swift */; };
 		F664C98822441E7400BAB2F7 /* RectanglerRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98722441E7400BAB2F7 /* RectanglerRetroTransition.swift */; };
 		F664C98A2244A3B000BAB2F7 /* MultiCircleRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C9892244A3B000BAB2F7 /* MultiCircleRetroTransition.swift */; };
+		F664C98C2244B5DB00BAB2F7 /* FlipRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98B2244B5DB00BAB2F7 /* FlipRetroTransition.swift */; };
+		F664C98E2244BD7500BAB2F7 /* TiledFlipRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C98D2244BD7500BAB2F7 /* TiledFlipRetroTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,7 +96,6 @@
 		F664C95722414DA500BAB2F7 /* photo24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo24.jpg; sourceTree = "<group>"; };
 		F664C95822414DA500BAB2F7 /* photo33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo33.jpg; sourceTree = "<group>"; };
 		F664C95922414DA500BAB2F7 /* photo35.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo35.jpg; sourceTree = "<group>"; };
-		F664C95A22414DA500BAB2F7 /* photo36.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo36.jpg; sourceTree = "<group>"; };
 		F664C95B22414DA500BAB2F7 /* photo27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo27.jpg; sourceTree = "<group>"; };
 		F664C95C22414DA500BAB2F7 /* photo34.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo34.jpg; sourceTree = "<group>"; };
 		F664C95D22414DA500BAB2F7 /* photo26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo26.jpg; sourceTree = "<group>"; };
@@ -110,6 +110,8 @@
 		F664C98522441E5A00BAB2F7 /* CrossFadeRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossFadeRetroTransition.swift; sourceTree = "<group>"; };
 		F664C98722441E7400BAB2F7 /* RectanglerRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectanglerRetroTransition.swift; sourceTree = "<group>"; };
 		F664C9892244A3B000BAB2F7 /* MultiCircleRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiCircleRetroTransition.swift; sourceTree = "<group>"; };
+		F664C98B2244B5DB00BAB2F7 /* FlipRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipRetroTransition.swift; sourceTree = "<group>"; };
+		F664C98D2244BD7500BAB2F7 /* TiledFlipRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiledFlipRetroTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,7 +196,6 @@
 				F664C95822414DA500BAB2F7 /* photo33.jpg */,
 				F664C95C22414DA500BAB2F7 /* photo34.jpg */,
 				F664C95922414DA500BAB2F7 /* photo35.jpg */,
-				F664C95A22414DA500BAB2F7 /* photo36.jpg */,
 			);
 			path = photos;
 			sourceTree = "<group>";
@@ -208,6 +209,8 @@
 				F664C98522441E5A00BAB2F7 /* CrossFadeRetroTransition.swift */,
 				F664C98722441E7400BAB2F7 /* RectanglerRetroTransition.swift */,
 				F664C9892244A3B000BAB2F7 /* MultiCircleRetroTransition.swift */,
+				F664C98B2244B5DB00BAB2F7 /* FlipRetroTransition.swift */,
+				F664C98D2244BD7500BAB2F7 /* TiledFlipRetroTransition.swift */,
 			);
 			path = Transitions;
 			sourceTree = "<group>";
@@ -286,7 +289,6 @@
 				F664C96F22414DA500BAB2F7 /* photo34.jpg in Resources */,
 				F664C946224149E000BAB2F7 /* photo5.jpg in Resources */,
 				F664C93F224149E000BAB2F7 /* photo14.jpg in Resources */,
-				F664C96D22414DA500BAB2F7 /* photo36.jpg in Resources */,
 				F664C96222414DA500BAB2F7 /* photo31.jpg in Resources */,
 				F664C96822414DA500BAB2F7 /* photo30.jpg in Resources */,
 				F664C948224149E000BAB2F7 /* photo6.jpg in Resources */,
@@ -325,9 +327,11 @@
 				F664C94D22414B0100BAB2F7 /* PhotoCell.swift in Sources */,
 				F664C97E2243E5D400BAB2F7 /* UIImage+Extensions.swift in Sources */,
 				F664C98A2244A3B000BAB2F7 /* MultiCircleRetroTransition.swift in Sources */,
+				F664C98E2244BD7500BAB2F7 /* TiledFlipRetroTransition.swift in Sources */,
 				F664C9782241564D00BAB2F7 /* RetroTransition.swift in Sources */,
 				F664C98622441E5A00BAB2F7 /* CrossFadeRetroTransition.swift in Sources */,
 				F664C9182241487500BAB2F7 /* AppDelegate.swift in Sources */,
+				F664C98C2244B5DB00BAB2F7 /* FlipRetroTransition.swift in Sources */,
 				F664C98422441E3400BAB2F7 /* CircleRetroTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

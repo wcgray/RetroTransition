@@ -1,6 +1,10 @@
 import UIKit
 
 class ClockRetroTransition : RetroTransition {
+    override func defaultDuration() -> TimeInterval {
+        return 0.7
+    }
+    
     override func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         guard let fromVC = transitionContext.viewController(forKey: .from),
             let toVC = transitionContext.viewController(forKey: .to)
