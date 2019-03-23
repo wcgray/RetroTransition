@@ -3,10 +3,6 @@ import UIKit
 public class RectanglerRetroTransition : RetroTransition {
     static let RectangleGrowthDistance : CGFloat = 60
     
-    private static func rectMovedIn(_ rect :CGRect, magnitude: CGFloat) -> CGRect {
-        return CGRect.init(x: rect.origin.x + magnitude, y: rect.origin.y + magnitude, width: rect.size.width - magnitude * 2, height: rect.size.height - magnitude * 2)
-    }
-    
     override public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         guard let fromVC = transitionContext.viewController(forKey: .from),
             let toVC = transitionContext.viewController(forKey: .to)

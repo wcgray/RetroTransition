@@ -67,6 +67,10 @@
 		F664C9AF22457D5100BAB2F7 /* MultiCircleRetroTransition.swift in Headers */ = {isa = PBXBuildFile; fileRef = F664C9892244A3B000BAB2F7 /* MultiCircleRetroTransition.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		F664C9B022457D5100BAB2F7 /* FlipRetroTransition.swift in Headers */ = {isa = PBXBuildFile; fileRef = F664C98B2244B5DB00BAB2F7 /* FlipRetroTransition.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		F664C9B122457D5100BAB2F7 /* TiledFlipRetroTransition.swift in Headers */ = {isa = PBXBuildFile; fileRef = F664C98D2244BD7500BAB2F7 /* TiledFlipRetroTransition.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F664C9D12245E9A800BAB2F7 /* ImageRepeatingRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C9D02245E9A800BAB2F7 /* ImageRepeatingRetroTransition.swift */; };
+		F664C9D22245ECEE00BAB2F7 /* ImageRepeatingRetroTransition.swift in Headers */ = {isa = PBXBuildFile; fileRef = F664C9D02245E9A800BAB2F7 /* ImageRepeatingRetroTransition.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F664C9D42245F00600BAB2F7 /* MultiFlipRetroAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C9D32245F00600BAB2F7 /* MultiFlipRetroAnimation.swift */; };
+		F664C9D52245FC0F00BAB2F7 /* MultiFlipRetroAnimation.swift in Headers */ = {isa = PBXBuildFile; fileRef = F664C9D32245F00600BAB2F7 /* MultiFlipRetroAnimation.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +152,8 @@
 		F664C99522457C4400BAB2F7 /* RetroTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RetroTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F664C99722457C4400BAB2F7 /* RetroTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RetroTransition.h; sourceTree = "<group>"; };
 		F664C99822457C4400BAB2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F664C9D02245E9A800BAB2F7 /* ImageRepeatingRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRepeatingRetroTransition.swift; sourceTree = "<group>"; };
+		F664C9D32245F00600BAB2F7 /* MultiFlipRetroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFlipRetroAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +262,8 @@
 				F664C9892244A3B000BAB2F7 /* MultiCircleRetroTransition.swift */,
 				F664C98B2244B5DB00BAB2F7 /* FlipRetroTransition.swift */,
 				F664C98D2244BD7500BAB2F7 /* TiledFlipRetroTransition.swift */,
+				F664C9D02245E9A800BAB2F7 /* ImageRepeatingRetroTransition.swift */,
+				F664C9D32245F00600BAB2F7 /* MultiFlipRetroAnimation.swift */,
 			);
 			path = Transitions;
 			sourceTree = "<group>";
@@ -284,6 +292,8 @@
 				F664C9AE22457D5100BAB2F7 /* RectanglerRetroTransition.swift in Headers */,
 				F664C9AF22457D5100BAB2F7 /* MultiCircleRetroTransition.swift in Headers */,
 				F664C9B022457D5100BAB2F7 /* FlipRetroTransition.swift in Headers */,
+				F664C9D22245ECEE00BAB2F7 /* ImageRepeatingRetroTransition.swift in Headers */,
+				F664C9D52245FC0F00BAB2F7 /* MultiFlipRetroAnimation.swift in Headers */,
 				F664C9B122457D5100BAB2F7 /* TiledFlipRetroTransition.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +450,8 @@
 				F664C9A422457C6C00BAB2F7 /* CircleRetroTransition.swift in Sources */,
 				F664C9A622457C6C00BAB2F7 /* RectanglerRetroTransition.swift in Sources */,
 				F664C9A822457C6C00BAB2F7 /* FlipRetroTransition.swift in Sources */,
+				F664C9D12245E9A800BAB2F7 /* ImageRepeatingRetroTransition.swift in Sources */,
+				F664C9D42245F00600BAB2F7 /* MultiFlipRetroAnimation.swift in Sources */,
 				F664C9A922457C6C00BAB2F7 /* TiledFlipRetroTransition.swift in Sources */,
 				F664C9A522457C6C00BAB2F7 /* CrossFadeRetroTransition.swift in Sources */,
 				F664C9A222457C6C00BAB2F7 /* RetroTransition.swift in Sources */,

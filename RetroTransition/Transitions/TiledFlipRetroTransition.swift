@@ -44,15 +44,6 @@ public class TiledFlipRetroTransition : RetroTransition {
         return 1.0
     }
     
-    private func snapshot(_ view : UIView) -> UIImage? {
-        UIGraphicsBeginImageContextWithOptions(view.bounds.size, true, UIScreen.main.scale)
-        view.layer.render(in: UIGraphicsGetCurrentContext()!)
-        let img = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-        
-        return img
-    }
-    
     override public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         guard let fromVC = transitionContext.viewController(forKey: .from),
             let toVC = transitionContext.viewController(forKey: .to),

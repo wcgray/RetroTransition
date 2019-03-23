@@ -29,6 +29,19 @@ public class RetroTransition : NSObject {
     func defaultDuration() -> TimeInterval {
         return 0.33
     }
+    
+    internal static func rectMovedIn(_ rect :CGRect, magnitude: CGFloat) -> CGRect {
+        return CGRect.init(x: rect.origin.x + magnitude, y: rect.origin.y + magnitude, width: rect.size.width - magnitude * 2, height: rect.size.height - magnitude * 2)
+    }
+    
+    internal func snapshot(_ view : UIView) -> UIImage? {
+        UIGraphicsBeginImageContextWithOptions(view.bounds.size, true, UIScreen.main.scale)
+        view.layer.render(in: UIGraphicsGetCurrentContext()!)
+        let img = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        return img
+    }
 }
 
 extension RetroTransition : UIViewControllerAnimatedTransitioning {
