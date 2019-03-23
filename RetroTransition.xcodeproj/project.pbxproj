@@ -247,6 +247,7 @@
 		F664C976224154E900BAB2F7 /* Transitions */ = {
 			isa = PBXGroup;
 			children = (
+				F664C99722457C4400BAB2F7 /* RetroTransition.h */,
 				F664C9772241564D00BAB2F7 /* RetroTransition.swift */,
 				F664C98122441E1100BAB2F7 /* ClockRetroTransition.swift */,
 				F664C98322441E3400BAB2F7 /* CircleRetroTransition.swift */,
@@ -263,7 +264,6 @@
 			isa = PBXGroup;
 			children = (
 				F664C976224154E900BAB2F7 /* Transitions */,
-				F664C99722457C4400BAB2F7 /* RetroTransition.h */,
 				F664C99822457C4400BAB2F7 /* Info.plist */,
 			);
 			path = RetroTransition;
