@@ -34,6 +34,44 @@ let vc = UIViewController()
 navigationController?.pushViewController(vc, withRetroTransition: ClockRetroTransition())
 ```
 
+## Transitions
+
+### MultiFlipRetroTransition
+
+<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/multiflip.gif" width="220" height="434"/>
+
+### ImageRepeatingRetroTransition
+
+<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/imagedups.gif" width="220" height="434"/>
+
+### ClockRetroTransition
+
+<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/clock.gif" width="220" height="434"/>
+
+### CircleRetroTransition
+
+<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/circle.gif" width="220" height="434"/>
+
+### RectanglerRetroTransition
+
+<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/rectangles.gif" width="220" height="434"/>
+
+### TiledFlipRetroTransition
+
+<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/squares.gif" width="220" height="434"/>
+
+### FlipRetroTransition
+
+<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/flip.gif" width="220" height="434"/>
+
+### MultiCircleRetroTransition
+
+<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/circles.gif" width="220" height="434"/>
+
+### CrossFadeRetroTransition
+
+<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/crossfade.gif" width="220" height="434"/>
+
 ## License
 
 MIT
