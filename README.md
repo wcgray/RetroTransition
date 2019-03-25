@@ -72,6 +72,10 @@ navigationController?.pushViewController(vc, withRetroTransition: ClockRetroTran
 
 <img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/crossfade.gif" width="220" height="434"/>
 
+## Author
+
+wcgray, cam@tinsoldiersoftware.com
+
 ## License
 
 MIT
