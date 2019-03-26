@@ -36,6 +36,30 @@ navigationController?.pushViewController(vc, withRetroTransition: ClockRetroTran
 
 ## Transitions
 
+### SwingInRetroTransition
+
+<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/swing_in.gif" width="220" height="434"/>
+
+### SplitFromCenterRetroTransition
+
+<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/xmiddle.gif" width="220" height="434"/>
+
+### ShrinkingGrowingDiamondsRetroTransition
+
+<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/shrinkgrowdiamond.gif" width="220" height="434"/>
+
+### CollidingDiamondsRetroTransition
+
+<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/colliding-diamonds.gif" width="220" height="434"/>
+
+### StraightLineRetroTransition
+
+<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/vertical-slide.gif" width="220" height="434"/>
+
+### AngleLineRetroTransition
+
+<img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/angle-slide.gif" width="220" height="434"/>
+
 ### MultiFlipRetroTransition
 
 <img src="https://raw.githubusercontent.com/wcgray/RetroTransition/master/Images/multiflip.gif" width="220" height="434"/>
