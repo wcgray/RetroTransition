@@ -368,9 +368,11 @@
 				TargetAttributes = {
 					F664C9132241487500BAB2F7 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					F664C99422457C4400BAB2F7 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -635,7 +637,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinsoldiersoftware.RetroTransitionExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -655,7 +657,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinsoldiersoftware.RetroTransitionExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -682,7 +684,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinsoldiersoftware.RetroTransition;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -711,7 +713,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinsoldiersoftware.RetroTransition;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
