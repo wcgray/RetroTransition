@@ -1,7 +1,7 @@
 import UIKit
 
 public class AngleLineRetroTransition : RetroTransition {
-    public var cornerToSlideFrom : UIRectCorner = .topRight
+    public var cornerToSlideFrom : UIRectCorner = .topLeft
     
     override public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         guard let fromVC = transitionContext.viewController(forKey: .from),

@@ -1,7 +1,7 @@
 import UIKit
 
 public class StraightLineRetroTransition : RetroTransition {
-    public var sideToSlideFrom : UIRectEdge = .right
+    public var sideToSlideFrom : UIRectEdge = .left
     
     override public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         guard let fromVC = transitionContext.viewController(forKey: .from),
