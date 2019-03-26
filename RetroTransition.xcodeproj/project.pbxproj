@@ -71,6 +71,12 @@
 		F664C9D22245ECEE00BAB2F7 /* ImageRepeatingRetroTransition.swift in Headers */ = {isa = PBXBuildFile; fileRef = F664C9D02245E9A800BAB2F7 /* ImageRepeatingRetroTransition.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		F664C9D42245F00600BAB2F7 /* MultiFlipRetroAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664C9D32245F00600BAB2F7 /* MultiFlipRetroAnimation.swift */; };
 		F664C9D52245FC0F00BAB2F7 /* MultiFlipRetroAnimation.swift in Headers */ = {isa = PBXBuildFile; fileRef = F664C9D32245F00600BAB2F7 /* MultiFlipRetroAnimation.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6BE6B5222492CE7002FAC06 /* AngleLineRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE6B5122492CE7002FAC06 /* AngleLineRetroTransition.swift */; };
+		F6BE6B5422494744002FAC06 /* StraightLineRetroAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE6B5322494744002FAC06 /* StraightLineRetroAnimation.swift */; };
+		F6BE6B5622494941002FAC06 /* CollidingDiamondsRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE6B5522494941002FAC06 /* CollidingDiamondsRetroTransition.swift */; };
+		F6BE6B58224950D1002FAC06 /* ShrinkingGrowingDiamondsRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE6B57224950D1002FAC06 /* ShrinkingGrowingDiamondsRetroTransition.swift */; };
+		F6BE6B5A22496882002FAC06 /* SplitFromCenterRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE6B5922496882002FAC06 /* SplitFromCenterRetroTransition.swift */; };
+		F6BE6B5C22496AB8002FAC06 /* SwingInRetroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE6B5B22496AB8002FAC06 /* SwingInRetroTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,6 +160,12 @@
 		F664C99822457C4400BAB2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F664C9D02245E9A800BAB2F7 /* ImageRepeatingRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRepeatingRetroTransition.swift; sourceTree = "<group>"; };
 		F664C9D32245F00600BAB2F7 /* MultiFlipRetroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFlipRetroAnimation.swift; sourceTree = "<group>"; };
+		F6BE6B5122492CE7002FAC06 /* AngleLineRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleLineRetroTransition.swift; sourceTree = "<group>"; };
+		F6BE6B5322494744002FAC06 /* StraightLineRetroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StraightLineRetroAnimation.swift; sourceTree = "<group>"; };
+		F6BE6B5522494941002FAC06 /* CollidingDiamondsRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollidingDiamondsRetroTransition.swift; sourceTree = "<group>"; };
+		F6BE6B57224950D1002FAC06 /* ShrinkingGrowingDiamondsRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrinkingGrowingDiamondsRetroTransition.swift; sourceTree = "<group>"; };
+		F6BE6B5922496882002FAC06 /* SplitFromCenterRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitFromCenterRetroTransition.swift; sourceTree = "<group>"; };
+		F6BE6B5B22496AB8002FAC06 /* SwingInRetroTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingInRetroTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +276,12 @@
 				F664C98D2244BD7500BAB2F7 /* TiledFlipRetroTransition.swift */,
 				F664C9D02245E9A800BAB2F7 /* ImageRepeatingRetroTransition.swift */,
 				F664C9D32245F00600BAB2F7 /* MultiFlipRetroAnimation.swift */,
+				F6BE6B5122492CE7002FAC06 /* AngleLineRetroTransition.swift */,
+				F6BE6B5322494744002FAC06 /* StraightLineRetroAnimation.swift */,
+				F6BE6B5522494941002FAC06 /* CollidingDiamondsRetroTransition.swift */,
+				F6BE6B57224950D1002FAC06 /* ShrinkingGrowingDiamondsRetroTransition.swift */,
+				F6BE6B5922496882002FAC06 /* SplitFromCenterRetroTransition.swift */,
+				F6BE6B5B22496AB8002FAC06 /* SwingInRetroTransition.swift */,
 			);
 			path = Transitions;
 			sourceTree = "<group>";
@@ -447,14 +465,20 @@
 			files = (
 				F664C9A722457C6C00BAB2F7 /* MultiCircleRetroTransition.swift in Sources */,
 				F664C9A322457C6C00BAB2F7 /* ClockRetroTransition.swift in Sources */,
+				F6BE6B5422494744002FAC06 /* StraightLineRetroAnimation.swift in Sources */,
 				F664C9A422457C6C00BAB2F7 /* CircleRetroTransition.swift in Sources */,
 				F664C9A622457C6C00BAB2F7 /* RectanglerRetroTransition.swift in Sources */,
 				F664C9A822457C6C00BAB2F7 /* FlipRetroTransition.swift in Sources */,
 				F664C9D12245E9A800BAB2F7 /* ImageRepeatingRetroTransition.swift in Sources */,
+				F6BE6B5622494941002FAC06 /* CollidingDiamondsRetroTransition.swift in Sources */,
+				F6BE6B58224950D1002FAC06 /* ShrinkingGrowingDiamondsRetroTransition.swift in Sources */,
 				F664C9D42245F00600BAB2F7 /* MultiFlipRetroAnimation.swift in Sources */,
 				F664C9A922457C6C00BAB2F7 /* TiledFlipRetroTransition.swift in Sources */,
 				F664C9A522457C6C00BAB2F7 /* CrossFadeRetroTransition.swift in Sources */,
+				F6BE6B5A22496882002FAC06 /* SplitFromCenterRetroTransition.swift in Sources */,
+				F6BE6B5C22496AB8002FAC06 /* SwingInRetroTransition.swift in Sources */,
 				F664C9A222457C6C00BAB2F7 /* RetroTransition.swift in Sources */,
+				F6BE6B5222492CE7002FAC06 /* AngleLineRetroTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

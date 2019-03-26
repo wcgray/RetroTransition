@@ -6,6 +6,12 @@ class PhotosGridViewController: UIViewController, UICollectionViewDelegate, UICo
     let transitionLabel = UILabel()
     
     let transitionClasses = [
+        SwingInRetroTransition.self,
+        SplitFromCenterRetroTransition.self,
+        ShrinkingGrowingDiamondsRetroTransition.self,
+        CollidingDiamondsRetroTransition.self,
+        StraightLineRetroTransition.self,
+        AngleLineRetroTransition.self,
         MultiFlipRetroTransition.self,
         ImageRepeatingRetroTransition.self,
         ClockRetroTransition.self,
