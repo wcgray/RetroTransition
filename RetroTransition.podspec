@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RetroTransition'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'Fun implementations of UIViewControllerAnimatedTransitioning for 90s inspired transitions between view controllers.'
 
 # This description is used to generate tags and improve search results.
